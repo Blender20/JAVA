@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class Cafe 
 
 {
+	private int sum;
+
 	public int getStreakGoal(int weeks)
 	{
 		for(int i=1;i<=weeks;i++,sum+=i){}
@@ -15,6 +17,7 @@ public class Cafe
 	public double getTotal()
 	{
 		double total=0;
+		Object items;
 		for(int i=0;i<items.length;i++)
 		{
 			total+=items[i];

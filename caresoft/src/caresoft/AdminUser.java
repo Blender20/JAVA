@@ -1,6 +1,6 @@
 package caresoft;
 
-import java.sql.Date;
+import java.util.Date;
 import java.util.ArrayList;
 
 public class AdminUser extends User implements HIPAACompliantUser, HIPAACompliantAdmin
@@ -79,7 +79,7 @@ public class AdminUser extends User implements HIPAACompliantUser, HIPAAComplian
 	@Override
 	public boolean accessAuthorized(Integer confirmedAuthId) 
 	{
-		if(confiremedAuthID==pin)
+		if(confirmedAuthId==pin)
 		{
 			return true;
 		}
