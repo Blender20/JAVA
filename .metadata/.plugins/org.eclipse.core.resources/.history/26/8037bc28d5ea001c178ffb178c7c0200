@@ -1,0 +1,15 @@
+package cafeBusinessLogic;
+
+public class Program 
+{
+	public static void main(String[] args)
+	{
+		Cafe starbucks=new Cafe();
+		starbucks.getStreakGoal(23);
+		System.out.println(streak);
+		
+		double items[]= {44.12, 67.35, 12.54, 65.76};
+		double total=starbucks.getTotal(items);
+		System.out.println(total);
+	}
+};

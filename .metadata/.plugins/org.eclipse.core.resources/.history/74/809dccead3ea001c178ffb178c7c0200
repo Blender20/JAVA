@@ -1,0 +1,11 @@
+package cafeBusinessLogic;
+
+public class Program 
+{
+	public static void main(String[] args)
+	{
+	Cafe starbucks=new Cafe();
+	starbucks.getStreakGoal(23);
+	System.out.println(streak);
+	}
+};

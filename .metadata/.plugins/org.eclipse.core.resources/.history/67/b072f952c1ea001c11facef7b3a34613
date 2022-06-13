@@ -1,0 +1,12 @@
+package com.codingdojo;
+
+import org.springframework.web.bind.annotation.GetMapping;
+
+public class RootController 
+{
+	@GetMapping("/")
+	public String home()
+	{
+		return "<h1>Hello World</h1>";
+	}
+};
